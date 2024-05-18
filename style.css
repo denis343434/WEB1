@@ -978,6 +978,9 @@ body{
 	.carta-footer-logo-1{
 		padding-left: 10%;
 	}
+	.user{
+		margin-left: 30px;
+	}
 	.info-use p{
 		font-size: 14px;
 		padding-left: 5px;
@@ -1000,6 +1003,9 @@ body{
 @media screen and (max-width:414px){
 	.info-use{
 		width: 390px;
+	}
+	.user{
+		margin-left: 20px;
 	}
 	.jcc12-text{
 		width: 380px;
@@ -1026,6 +1032,9 @@ body{
 	}
 	.line-jcc8-text p{
 		font-size: 20px;
+	}
+	.user{
+		margin-left: 10px;
 	}
 	.jcc1 p{
 		font-size: 25px;
@@ -1063,6 +1072,9 @@ body{
 	.img-line{
 		display: grid;
 		grid-template-columns: none;
+	}
+	.user{
+		margin-left: 5px;
 	}
 	header{
 		padding-left: 5px;
