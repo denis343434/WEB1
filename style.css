@@ -737,6 +737,8 @@ body{
 		text-align: left;
 		padding: 30px;
 		background-color: #fff;
+		width: 100%;
+		height: 100vh;
 	}
 	.menu-text{
 		grid-gap: 20px;
@@ -746,11 +748,11 @@ body{
 		background: no-repeat;
 		border: 0px;
 		text-align: left;
-		font-size: 17px;
+		font-size: 37px;
 	}
 	.menu img{
 		top: 5px;
-		right: 5px;
+		right: 90px;
 		width: 40px;
 		height: 40px;
 		position: absolute;
@@ -804,7 +806,7 @@ body{
 		width: 100%;
 	}
 	.line-jcc8-text-li{
-		width: 500px;
+		width: 90%;
 	}
 	.jcc7-carta{
 		display: grid;
@@ -910,7 +912,8 @@ body{
 }
 @media screen and (max-width:479px){
 	.line-jcc8-text-li{
-		width: 400px;
+		width: 90%;
+		padding-left: 20px;
 	}
 	.info-use{
 		padding: 30px;
@@ -974,6 +977,9 @@ body{
 		grid-template-columns: none;
 		padding-left: 0;
 		width: 100%;
+	}
+	.jcc2 p{
+		font-size: 16px;
 	}
 	.carta-footer-logo-1{
 		padding-left: 10%;
@@ -1076,6 +1082,9 @@ body{
 	.user{
 		margin-left: 5px;
 	}
+	.jcc2 p{
+		font-size: 12px;
+	}
 	header{
 		padding-left: 5px;
 		padding-right: 5px;
@@ -1130,6 +1139,9 @@ body{
 @media screen and (max-width:280px){
 	.button-jcc8-title{
 		display: grid;
+	}
+	.menu-text button{
+		font-size: 20px;
 	}
 	.carta-jcc3-text h2{
 		font-size: 14px;
@@ -1222,6 +1234,9 @@ body{
 	}
 	.jcc6 h2{
 		font-size: 16px;
+	}
+	.jcc2 p{
+		font-size: 11px;
 	}
 	.jcc6 h3{
 		font-size: 14px;
